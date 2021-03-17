@@ -1,13 +1,5 @@
 package com.company;
 
-public static void pause(int ms) {
-    try {
-        Thread.sleep(ms);
-    } catch (InterruptedException e) {
-        System.err.format("IOException: %s%n", e);
-    }
-}
-
 class begin() {
     public static void StaticMethod() {
         System.out.print("loop started"); 
